@@ -112,11 +112,34 @@ if (arr.length >= 3){
     console.log('Меньше 3-х');
 } */ 
 
-
+/* 
 const arr = ['apple', 'banan', 'pineapple']; 
 
 if (arr.Length) {
     console.log('Не пусто');
 } else {
     console.log('Пусто');
+} */
+
+/* 
+const arr = ['milk', 'egg', 'apple', 'oil', 'potato', 'banana', 'watermelon']
+let selectedProduct = null;
+
+for (let index = 0; index < arr.length; index++) {
+    const product = arr[index];
+    
+    if (product === 'apple'){
+        selectedProduct = apple;
+    }
 }
+
+console.log('selectedProduct', selectedProduct); */
+
+
+/* const arrOfNum = [10, 20, 30, 40, 50];
+
+const changedArr = arrOfNum.map ( (number) => {
+    return number * 2;
+});
+
+console.log('changedArr', changedArr); */
